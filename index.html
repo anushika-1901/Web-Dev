@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My portfolio website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2bf1ed4aba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="data:image/png;base64,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"
+                    class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi , I am <span> Anushika Tyagi </span><br> from India</h1>
+                    <p>A result-driven Full Stack Developer with expertise in <span> Python, Django,HTML5, CSS3, JavaScript and SQLite</span> Experienced in developing responsive and scalable web applications, with a passion for solving complex problems. Seeking an opportunity to contribute to a dynamic development team in a fast-paced environment.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://i.postimg.cc/5tQvVTkc/photo.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello! I am Anushika Tyagi, a passionate web developer.
+                            I specialize in front-end and back-end development, using technologies like
+                            HTML,CSS and JavaScript and backend web technologies like Django.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML,CSS and JavaScript</span><br>Website Designing</li>
+                                <li><span>Python</span><br>Software Development</li>
+                                <li><span>C++</span><br>Game Development</li>
+                                <li><span>Django</span><br>Backend development</li>
+                                <li><span>SQLite</span><br>Database Management</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Oasis Infobyte</span><br>Web designing and development Intern</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Inderprastha Engineering College</span><br>B.Tech</li>
+                                <li><span>St.mary's Convent School</span><br>Senior Secondary</li>
+                                <li><span>St.mary's Convent School</span><br>Higher Secondary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I offer custom web design solutions that focus on creating beautiful, 
+                            user-friendly websites tailored to your brand and goals.From the initial concept to the final product, I ensure your site is not only visually stunning but also intuitive and responsive across all devices.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Python Development</h2>
+                        <p>As a Python developer, I offer versatile and powerful solutions to help bring your projects to life. With a strong focus on clean, efficient, and scalable code, I specialize in leveraging Python’s robust ecosystem to tackle a variety of challenges, from automation to complex web applications.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Backend services</h2>
+                        <p>With Django, I build secure, scalable, and high-performance web applications that meet your business needs. Django’s robust framework allows me to create powerful back-end solutions quickly while maintaining clean and maintainable code</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="https://media.istockphoto.com/id/487591111/photo/report-card.jpg?s=612x612&w=0&k=20&c=TYU1HsnqZOgaY5eosGGOl3Z1N6E3glp5of7_T4yeanM=">
+                        <div class="layer">
+                            <h3>Student Report card App</h3>
+                            <p>Built an app that calculates the rank of students.
+                                Applied the concept of pagination for moving from one page to another.
+                            </p>
+                            <a href="https://github.com/anushika-1901/Django-report-card-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://media.istockphoto.com/id/1395273094/photo/close-up-on-a-woman-cooking-at-home-following-an-online-recipe.jpg?s=612x612&w=0&k=20&c=UrqNQmMlccycK5mmMaH5-WA0B1nH2NCHM0pmIHODF2o=">
+                        <div class="layer">
+                            <h3>Recipe Generator</h3>
+                            <p>An app with add,update and delete functions.
+                                Allowed only logged in customers to access the app.
+                            </p>
+                            <a href="https://github.com/anushika-1901/Django-recipe-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://media.istockphoto.com/id/1443725051/photo/business-marketing-strategy-planning-concept-hand-holding-wooden-block-tic-tac-toe-board-game.jpg?s=612x612&w=0&k=20&c=SfxA8EJpY2lx9tYxNEiiTQSBsGHxNBfor6eElQ1kPXs=">
+                        <div class="layer">
+                            <h3>Tic Tac toe Game</h3>
+                            <p>Implemented JavaScript and Dom.
+                                Added event listeners for handling add and remove functions.
+                            </p>
+                            <a href="https://github.com/anushika-1901/Tic-tac-toe-game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>anushikatyagi1@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9917434801</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/_anushika_tyagi_/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/anushika-tyagi-80a947223/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/anushika-1901"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1Ez1BKU2GkP6dFiHjns1dx2-QmUU-GnWq/view?usp=sharing" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @ Anushika. Made with <i class="fa-solid fa-heart"></i> by Anushika</p>
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove('active-link');
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById('sidemenu');
+            function openmenu(){
+                sidemenu.style.right="0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
