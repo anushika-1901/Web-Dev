@@ -1,0 +1,16 @@
+/* .firstDiv{color:blue;}
+.secondDiv{color:red;}
+#singledout{ color:green;text-decoration:line-through;}
+h3+ul{border:10px solid purple;}
+ul li a{color:green;}
+li a[href='https://www.facebook.com']{
+    color:red;
+    border:6px solid green;
+}
+
+h3 {color:red;} */
+
+
+li{color:red;}
+.topitem{color:darkmagenta;}
+#two{color:chartreuse;}

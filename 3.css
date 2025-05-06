@@ -1,0 +1,27 @@
+/* h1{font-family:Arial, Helvetica, sans-serif;}
+
+p{font-family:monospace;}
+
+body{font-size:1.5em;}
+
+
+/* 1em=16px; */
+/* p{
+    font-style:italic;font-weight:bold;
+}
+
+
+h1{text-align:center;} */ 
+/* margin:top right bottom left   */
+/* #top{border:6px solid blue;width:25%;text-align:center; margin:50px 20px;margin:100px 30px;padding:10px 30px ;padding:30px 30px;}
+
+
+#bottom{border:6px solid red; padding:10%;text-align:center;margin:auto;text-transform:uppercase;} */
+#one{height:200px;width:100px;background-color:blue;}
+td{border:6px solid white;}
+#two{height:200px;width:100px;background-color:green;}
+#three{height:200px;width:100px;background-color:lightgreen;}
+#four{height:200px;width:100px;background-color:yellow;}
+#five{height:200px;width:100px;background-color:red;}
+h2{font-family:Arial, Helvetica, sans-serif;margin-top:30px;margin-bottom:50px;text-align:center;}
+.art{margin:auto;}
