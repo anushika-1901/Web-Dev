@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>Hi How are you?</h1>
+                <h2>What's going on?</h2>
+            </section>
+        </main>
+        <!-- nav>ul>li*5>a[href='www.facebook.com']{Click Me} -->
+        <nav>
+            <ul>
+                <li><a href="www.google.com">Click Me</a></li>
+                <li><a href="www.google.com">Click Me</a></li>
+                <li><a href="www.google.com">Click Me</a></li>
+                <li><a href="www.google.com">Click Me</a></li>
+                <li><a href="www.google.com">Click Me</a></li>
+            </ul>
+        </nav>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th rowspan="2">Animal</th>
+                    <th colspan="2">Average mass</th>
+                    <th rowspan="2">Flighted</th>
+                </tr>
+                <tr>
+                    <th>KG</th>
+                    <th>LB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ostrich</td>
+                    <td>104</td>
+                    <td>230</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Somali ostrich</td>
+                    <td>90</td>
+                    <td>200</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Wild turkey</td>
+                    <td>13.5</td>
+                    <td>29.8</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Hijacking Search sites</h3>
+        <p>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button type="submit">Search taco</button>
+        </form>
+        </p>
+        <p>
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query">
+            <button type="submit">Search you tube</button>
+        </form>
+        </p>
+        <h3>More inputs </h3>
+        <form action="/birds">
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree" >I agree to everything</label>
+            <p>
+                <input type="radio" name="loc" id="hindi" value="hindi"><label for="hindi">Hindi</label>
+                <input type="radio" name="loc" id="eng" value="eng"><label for="eng">english</label>
+                <input type="radio" name="loc" id="math" value="math"><label for="math">Maths</label>
+            </p>
+            <button type="submit">Submit </button>
+        </form>
+        <select name="rating">
+            <option value="select rating">Select rating</option>
+            <option value="1">Nice</option>
+            <option value="2">Good</option>
+            <option value="3">Best</option>
+        </select>
+    </body>
+</html>
